@@ -1,0 +1,64 @@
+	    .text{
+	        color: steelblue; 
+	    }
+	    .fix {
+            color: white;
+	    	background-color: steelblue;
+	    }
+	    .navbar-nav.navbar-center { 
+            position: absolute; 
+            left: 50%; 
+            transform: translatex(-50%); 
+        } 
+	    span {
+			font-size: 200%;
+			text-transform: uppercase;
+		}
+		.play {
+			text-transform: uppercase;
+			transition: all 0.5s;
+			-webkit-transition: all 0.5s;
+	    	-moz-transition: all 0.5s;
+		}
+		.play:hover{
+			color: white;
+			background-color: steelblue;
+		}
+		.sty {
+			font-weight: 700;			
+			padding-top: 0;
+			padding-bottom: 0;
+			letter-spacing: 1px;
+			font-size: inherit;
+		}
+		body {
+			background-color: #232323;
+			margin: 0;
+			font-family: "Avenir","Montserrat";
+		}
+		.big{
+			margin: 0;
+			line-height: 1.1;
+			font-weight: normal;
+			background-color: steelblue;
+		}
+		.visible {
+	        display: none;
+	    }
+	    .invisible {
+	    	visibility: hidden;
+	    }
+	    .square{
+	    	width:30%;
+	    	padding-bottom: 30%;
+	    	float:left;
+	    	margin: 1.66%;
+	    	border-radius: 15%;
+	    	transition: background 0.8s;
+	    	-webkit-transition: background 0.8s;
+	    	-moz-transition: background 0.8s;
+	    }
+	    .navbar{
+	    	margin: 0;
+	    	padding: 0; 
+	    }
